@@ -21,8 +21,10 @@ public class MousePhaser : MonoBehaviour
     {
         if (angle > 75f)
             angle = 75f;
+        
         if (angle < -75f)
             angle = -75f;
+        
         return angle;
     }
     

@@ -1,15 +1,25 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class MouseLauncher : MonoBehaviour
 {
     public Launcher Launcher;
     void Update()
     {
-        // if the mouse is clicked
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current == null)
+            return;
+        
+        if (Game.IsGameNotStarted())
+            return;
+        
+        if (Game.IsGameNotStarted())
         {
-            LaunchBall();
+            // if the mouse is clicked
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                LaunchBall();
+            }
         }
     }
 

@@ -17,6 +17,11 @@ public class Game : MonoBehaviour
         isGameStarted = true;
     }
 
+    public static bool IsGameNotStarted()
+    {
+        return !isGameStarted;
+    }
+
     public static bool IsGameStarted()
     {
         return isGameStarted;
