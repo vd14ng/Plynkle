@@ -132,6 +132,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (6)
@@ -236,6 +240,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (10)
@@ -344,6 +352,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (5)
@@ -406,6 +418,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue
@@ -468,6 +484,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (3)
@@ -652,6 +672,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (1)
@@ -714,6 +738,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (7)
@@ -776,6 +804,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (9)
@@ -1242,7 +1274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -181.6, y: 4.1}
+  m_AnchoredPosition: {x: -181.6, y: 4.65}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &379351514 stripped
@@ -1302,7 +1334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &384046792
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1412,6 +1444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e2be8ec563a64202bbf5bbe45b00655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sounds
+  CannonClip: {fileID: 8300000, guid: c28529b20dd1545a4ad5a5d9f3258e68, type: 3}
+  PegDestroyedClip: {fileID: 8300000, guid: 0504377b7a3cd41eb9885c56eead1b0a, type: 3}
+  PegHitClip: {fileID: 8300000, guid: c8386aabce69f4065acf2dd5c2ea6f2a, type: 3}
+  FireworksClip: {fileID: 8300000, guid: b194fdc1e4bc44dc099d0e1482731455, type: 3}
 --- !u!4 &384046794
 Transform:
   m_ObjectHideFlags: 0
@@ -1435,6 +1471,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (3)
@@ -1624,6 +1664,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (6)
@@ -1686,6 +1730,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (7)
@@ -1838,6 +1886,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (10)
@@ -2177,6 +2229,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (6)
@@ -2239,6 +2295,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (3)
@@ -2301,6 +2361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (3)
@@ -2363,6 +2427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (10)
@@ -2562,6 +2630,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (8)
@@ -2780,6 +2852,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (4)
@@ -3022,6 +3098,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (5)
@@ -3089,6 +3169,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (5)
@@ -3357,6 +3441,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (2)
@@ -3419,6 +3507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (4)
@@ -3481,6 +3573,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (7)
@@ -3923,6 +4019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
   Launcher: {fileID: 1133171383}
+  Sounds: {fileID: 384046793}
 --- !u!1001 &1164624321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3996,6 +4093,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (2)
@@ -4058,6 +4159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue
@@ -4286,6 +4391,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (10)
@@ -4353,6 +4462,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (9)
@@ -4477,6 +4590,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (5)
@@ -4653,6 +4770,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (9)
@@ -4715,6 +4836,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (2)
@@ -4777,6 +4902,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (8)
@@ -4839,6 +4968,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue
@@ -4946,6 +5079,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (9)
@@ -5008,6 +5145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (1)
@@ -5075,6 +5216,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (6)
@@ -5198,6 +5343,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (4)
@@ -5260,6 +5409,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (1)
@@ -5353,6 +5506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 804948525}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (8)
@@ -5552,6 +5709,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (4)
@@ -5614,6 +5775,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (8)
@@ -5808,6 +5973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (1)
@@ -5897,7 +6066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchoredPosition: {x: 0, y: -86.8}
   m_SizeDelta: {x: 1920, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048383949
@@ -5956,6 +6125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 104499729}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (2)
@@ -6075,6 +6248,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119191779}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue (7)
@@ -6210,6 +6387,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860559904}
     m_Modifications:
+    - target: {fileID: 6877572048918778001, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7223576920108594230, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
       propertyPath: m_Name
       value: pegBlue
