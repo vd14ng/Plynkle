@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 
-public class MousePhaser : MonoBehaviour
+public class MouseFacer : MonoBehaviour
 {
 
     // Update is called once per frame
@@ -14,6 +14,7 @@ public class MousePhaser : MonoBehaviour
         angle = ConstrainAngle(angle);
         // rotate the sprite to that angle
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        
         
     }
 
@@ -43,6 +44,7 @@ public class MousePhaser : MonoBehaviour
 
         angle = angle + 90f;
         
+        print(angle);
         return angle;
     }
 
@@ -51,6 +53,8 @@ public class MousePhaser : MonoBehaviour
         Vector2 mouseScreen = Mouse.current.position.ReadValue();
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(mouseScreen);
         mouseWorld.z = 0f;
+        
+        print(mouseWorld);
         return mouseWorld;
     }
 
