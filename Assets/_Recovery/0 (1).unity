@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI
   ScoreText: {fileID: 378673019}
-  StartMenuCanvasGroup: {fileID: 938008389}
+  StartMenuCanvasGroup: {fileID: 1221279932}
 --- !u!4 &169105979
 Transform:
   m_ObjectHideFlags: 0
@@ -1028,7 +1028,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -4123,6 +4123,7 @@ GameObject:
   - component: {fileID: 1221279929}
   - component: {fileID: 1221279931}
   - component: {fileID: 1221279930}
+  - component: {fileID: 1221279932}
   m_Layer: 5
   m_Name: StartScreen
   m_TagString: Untagged
@@ -4188,6 +4189,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221279928}
   m_CullTransparentMesh: 1
+--- !u!225 &1221279932
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221279928}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1235963325
 GameObject:
   m_ObjectHideFlags: 0

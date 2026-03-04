@@ -17,9 +17,7 @@ public class Launcher : MonoBehaviour
     private void LaunchProjectile(GameObject projectileObject, Vector2 aimDirection)
     {
         Rigidbody2D projectileRigidbody = projectileObject.GetComponent<Rigidbody2D>();
-        
-        // add force to the object in the direction
-        projectileRigidbody.AddForce(aimDirection * 5, ForceMode2D.Impulse);
+        projectileRigidbody.AddForce(aimDirection * 5f, ForceMode2D.Impulse);
         
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Peg : MonoBehaviour
 {
     public List<Sprite> Sprites;
+    public Sounds Sounds;
     
     private int currentSpriteNumber = 0;
     private SpriteRenderer spriteRenderer;
@@ -25,15 +26,14 @@ public class Peg : MonoBehaviour
 
     private void OnBallHit()
     {
-        // if no more sprites to show
         if (NoMoreSprites())
         {
-            // destroy
+            Sounds.PlayPegDestroyedSound();
             Destroy(gameObject);
         }
         else
         {
-            // show the next sprite
+            Sounds.PlayPegHitSound();
             ShowNextSprite();
         }
     }

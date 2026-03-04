@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class MouseLauncher : MonoBehaviour
 {
     public Launcher Launcher;
+    public Sounds Sounds;
     void Update()
     {
         if (Mouse.current == null)
@@ -13,22 +14,20 @@ public class MouseLauncher : MonoBehaviour
         if (Game.IsGameNotStarted())
             return;
         
-        if (Game.IsGameNotStarted())
+        if (Game.IsGameStarted())
         {
-            // if the mouse is clicked
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 LaunchBall();
             }
         }
     }
-
     private void LaunchBall()
     {
-        // figure out the direction to aim
         Vector2 aimDirection = GetAimDirection();
 
-        // launch in that direction
+        Sounds.PlayCannonSound();
+        
         Launcher.Launch(aimDirection);
     }
 
