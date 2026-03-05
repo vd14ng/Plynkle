@@ -7,6 +7,7 @@ public class UI : MonoBehaviour
     public CanvasGroup StartMenuCanvasGroup;
     public void ShowScore(int score)
     {
+        // print(score);
         ScoreText.text = score.ToString();
     }
 

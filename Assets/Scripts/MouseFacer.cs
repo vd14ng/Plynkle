@@ -8,10 +8,8 @@ public class MouseFacer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // what angle do we need to rotate foward?
         float angle = GetAngle();
-        print("Angle: " + angle);
-
+        // print("Angle: " + angle);
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 

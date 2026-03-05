@@ -3,7 +3,6 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     public AudioClip PeghitClip;
-    
     private AudioSource audioSource;
 
     public void Awake()

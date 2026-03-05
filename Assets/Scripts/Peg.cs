@@ -6,6 +6,7 @@ public class Peg : MonoBehaviour
 {
     public List<Sprite> Sprites;
     public Sounds Sounds;
+    public GameObject RingParticlePrefab;
     
     private int currentSpriteNumber = 0;
     private SpriteRenderer spriteRenderer;
@@ -35,7 +36,13 @@ public class Peg : MonoBehaviour
         {
             Sounds.PlayPegHitSound();
             ShowNextSprite();
+            SpawnRingParticle();
         }
+    }
+
+    private void SpawnRingParticle()
+    {
+        Instantiate(RingParticlePrefab, transform.position, Quaternion.identity);
     }
 
     private void ShowNextSprite()
