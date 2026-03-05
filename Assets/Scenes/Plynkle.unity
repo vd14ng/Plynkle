@@ -124,6 +124,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
   m_PrefabInstance: {fileID: 1164624321}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &45036960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 501270475}
+    m_Modifications:
+    - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_Name
+      value: SlotColliderBlank - Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Ui
+      value: 
+      objectReference: {fileID: 169105978}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: points
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: FireworksParticlePrefab
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
 --- !u!1001 &82536378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -550,6 +619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2 (3)
@@ -599,6 +672,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+--- !u!4 &202392322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+  m_PrefabInstance: {fileID: 45036960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &236415744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -609,7 +687,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (4)
+      value: SlotCollider20 - Left
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1994,12 +2072,14 @@ Transform:
   - {fileID: 791412655}
   - {fileID: 477708926}
   - {fileID: 1115469932}
-  - {fileID: 1882932533}
   - {fileID: 753694039}
+  - {fileID: 1882932533}
   - {fileID: 799905118}
+  - {fileID: 202392322}
   - {fileID: 887671454}
   - {fileID: 18018005}
   - {fileID: 925703297}
+  - {fileID: 1195757131}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &506469534
@@ -2103,7 +2183,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2706,7 +2786,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (5)
+      value: SlotCollider10 - Left
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3188,7 +3268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (6)
+      value: SlotCollider50 - Left
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3729,6 +3809,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2 (4)
@@ -3788,7 +3872,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (1)
+      value: SlotCollider50 - Right
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4128,7 +4212,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (2)
+      value: SlotCollider20 - Right
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4322,6 +4406,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9163583320868919764, guid: 887a05c13ae9842f7b4c94c70627b4cb, type: 3}
   m_PrefabInstance: {fileID: 1194112446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1195757131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+  m_PrefabInstance: {fileID: 2054711842}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1221279928
 GameObject:
@@ -4647,6 +4736,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall1
@@ -4775,6 +4868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2 (5)
@@ -4832,6 +4929,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2 (1)
@@ -5398,7 +5499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_Name
-      value: Slot1Collider (3)
+      value: SlotCollider10 - Right
       objectReference: {fileID: 0}
     - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6221,6 +6322,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048383947}
   m_CullTransparentMesh: 1
+--- !u!1001 &2054711842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 501270475}
+    m_Modifications:
+    - target: {fileID: 310842535091523892, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_Name
+      value: SlotColliderBlank - Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748105845808916360, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Ui
+      value: 
+      objectReference: {fileID: 169105978}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: points
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: FireworksParticlePrefab
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
 --- !u!4 &2074123312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188792013675850141, guid: d86ece9529e0e4836897414443be48c1, type: 3}
@@ -6305,6 +6475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2 (2)
@@ -6494,6 +6668,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 501270475}
     m_Modifications:
+    - target: {fileID: -9038108162722021020, guid: d86ece9529e0e4836897414443be48c1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2853d58befe324d29a2fa589946c73bd, type: 2}
     - target: {fileID: 2883359359650003512, guid: d86ece9529e0e4836897414443be48c1, type: 3}
       propertyPath: m_Name
       value: SlotWall2

@@ -13,6 +13,9 @@ public class MouseLauncher : MonoBehaviour
         
         if (Game.IsGameNotStarted())
             return;
+
+        if (Ball.isBallInPlay)
+            return;
         
         if (Game.IsGameStarted())
         {
