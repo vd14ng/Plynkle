@@ -660,6 +660,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: points
       value: 20
       objectReference: {fileID: 0}
@@ -2748,6 +2752,10 @@ PrefabInstance:
       propertyPath: Ui
       value: 
       objectReference: {fileID: 169105978}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3230,6 +3238,10 @@ PrefabInstance:
       propertyPath: Points
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: points
       value: 20
@@ -3827,6 +3839,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: points
       value: 50
       objectReference: {fileID: 0}
@@ -4162,6 +4178,10 @@ PrefabInstance:
       propertyPath: Points
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 384046793}
     - target: {fileID: 7900023676720282449, guid: e387159ba67f54adeb9b6317d50c252a, type: 3}
       propertyPath: points
       value: 20
